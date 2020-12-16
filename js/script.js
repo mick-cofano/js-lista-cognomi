@@ -13,3 +13,10 @@ var cognomeUser = prompt('Ciao, inserisci il tuo cognome');
 while (cognomeUser.length <= 1) {
   cognomeUser = prompt('Ciao, inserisci il tuo cognome');
 }
+
+// Stampa della lista cognomi (while)
+var i= 0;
+while (i < cognomi.length) {
+  document.getElementById('lista-cognomi').innerHTML += '<li>' + cognomi[i] + '</li>';
+  i++;
+}
