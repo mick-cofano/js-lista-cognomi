@@ -20,3 +20,8 @@ while (i < cognomi.length) {
   document.getElementById('lista-cognomi').innerHTML += '<li>' + cognomi[i] + '</li>';
   i++;
 }
+
+
+// Stampa della posizione "umana" del cognome nella lista
+var numeroPosizione = cognomi.indexOf(cognomeUser) + 1;
+document.getElementById('posizione-user').innerHTML = 'Salve, lei è nella posizione n. ' + numeroPosizione + ' della lista!';
