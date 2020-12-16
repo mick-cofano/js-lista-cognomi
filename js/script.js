@@ -21,7 +21,6 @@ while (i < cognomi.length) {
   i++;
 }
 
-
 // Stampa della posizione "umana" del cognome nella lista
 var numeroPosizione = cognomi.indexOf(cognomeUser) + 1;
 document.getElementById('posizione-user').innerHTML = 'Salve, lei è nella posizione n. ' + numeroPosizione + ' della lista!';
